@@ -1,0 +1,20 @@
+[2023-04-21 10:34:12,553][__main__][INFO] - Load dataset ...
+[2023-04-21 10:38:30,545][__main__][INFO] - Load dataset ...
+[2023-04-21 10:38:54,867][__main__][INFO] - Load dataset ...
+[2023-04-21 10:38:55,691][__main__][INFO] - Use pretrain model
+[2023-04-21 10:38:55,691][__main__][INFO] - Epoch 1 (50/50):
+[2023-04-21 10:39:20,925][__main__][INFO] - Test Instance Accuracy: 0.815323, Class Accuracy: 0.733295
+[2023-04-21 10:39:20,925][__main__][INFO] - Best Instance Accuracy: 0.815323, Class Accuracy: 0.733295
+[2023-04-21 16:49:24,364][__main__][INFO] - Load dataset ...
+[2023-04-21 16:49:25,167][__main__][INFO] - Use pretrain model
+[2023-04-21 16:49:25,167][__main__][INFO] - Epoch 1 (50/50):
+[2023-04-21 16:49:51,351][__main__][INFO] - Test Instance Accuracy: 0.817339, Class Accuracy: 0.732476
+[2023-04-21 16:49:51,351][__main__][INFO] - Best Instance Accuracy: 0.817339, Class Accuracy: 0.732476
+[2023-04-21 16:51:20,796][__main__][INFO] - Load dataset ...
+[2023-04-21 16:51:21,626][__main__][INFO] - Use pretrain model
+[2023-04-21 16:51:47,821][__main__][INFO] - Test Instance Accuracy: 0.816532, Class Accuracy: 0.733751
+[2023-04-21 16:51:47,821][__main__][INFO] - Best Instance Accuracy: 0.816532, Class Accuracy: 0.733751
+[2023-04-21 17:02:04,933][__main__][INFO] - Load dataset ...
+[2023-04-21 17:02:05,752][__main__][INFO] - Use pretrain model
+[2023-04-21 17:02:32,085][__main__][INFO] - Test Instance Accuracy: 0.816935, Class Accuracy: 0.740667
+[2023-04-21 17:02:32,085][__main__][INFO] - Best Instance Accuracy: 0.816935, Class Accuracy: 0.740667

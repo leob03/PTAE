@@ -1,0 +1,91 @@
+[2023-04-20 15:55:24,442][__main__][INFO] - No existing model, starting training from scratch...
+[2023-04-20 15:55:35,020][__main__][INFO] - eval mIoU of Airplane       0.215263
+[2023-04-20 15:55:35,020][__main__][INFO] - eval mIoU of Bag            0.052316
+[2023-04-20 15:55:35,020][__main__][INFO] - eval mIoU of Cap            0.137074
+[2023-04-20 15:55:35,020][__main__][INFO] - eval mIoU of Car            0.107049
+[2023-04-20 15:55:35,020][__main__][INFO] - Epoch 1 test Accuracy: 0.395690  Class avg mIOU: 0.127926   Inctance avg mIOU: 0.176639
+[2023-04-20 15:55:35,020][__main__][INFO] - Best accuracy is: 0.39569
+[2023-04-20 15:55:35,020][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:55:35,020][__main__][INFO] - Best inctance avg mIOU is: 0.17664
+[2023-04-20 15:55:45,139][__main__][INFO] - eval mIoU of Airplane       0.214669
+[2023-04-20 15:55:45,139][__main__][INFO] - eval mIoU of Bag            0.052490
+[2023-04-20 15:55:45,139][__main__][INFO] - eval mIoU of Cap            0.132857
+[2023-04-20 15:55:45,139][__main__][INFO] - eval mIoU of Car            0.106952
+[2023-04-20 15:55:45,139][__main__][INFO] - Epoch 2 test Accuracy: 0.394867  Class avg mIOU: 0.126742   Inctance avg mIOU: 0.176139
+[2023-04-20 15:55:45,139][__main__][INFO] - Best accuracy is: 0.39569
+[2023-04-20 15:55:45,139][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:55:45,139][__main__][INFO] - Best inctance avg mIOU is: 0.17664
+[2023-04-20 15:55:55,179][__main__][INFO] - eval mIoU of Airplane       0.216776
+[2023-04-20 15:55:55,179][__main__][INFO] - eval mIoU of Bag            0.054513
+[2023-04-20 15:55:55,179][__main__][INFO] - eval mIoU of Cap            0.131392
+[2023-04-20 15:55:55,179][__main__][INFO] - eval mIoU of Car            0.105158
+[2023-04-20 15:55:55,179][__main__][INFO] - Epoch 3 test Accuracy: 0.395964  Class avg mIOU: 0.126960   Inctance avg mIOU: 0.176993
+[2023-04-20 15:55:55,179][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:55:55,179][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:55:55,179][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:05,544][__main__][INFO] - eval mIoU of Airplane       0.214556
+[2023-04-20 15:56:05,544][__main__][INFO] - eval mIoU of Bag            0.053606
+[2023-04-20 15:56:05,544][__main__][INFO] - eval mIoU of Cap            0.133567
+[2023-04-20 15:56:05,544][__main__][INFO] - eval mIoU of Car            0.105019
+[2023-04-20 15:56:05,544][__main__][INFO] - Epoch 4 test Accuracy: 0.395146  Class avg mIOU: 0.126687   Inctance avg mIOU: 0.175528
+[2023-04-20 15:56:05,544][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:05,544][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:05,544][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:15,549][__main__][INFO] - eval mIoU of Airplane       0.214511
+[2023-04-20 15:56:15,549][__main__][INFO] - eval mIoU of Bag            0.051339
+[2023-04-20 15:56:15,549][__main__][INFO] - eval mIoU of Cap            0.134499
+[2023-04-20 15:56:15,549][__main__][INFO] - eval mIoU of Car            0.106501
+[2023-04-20 15:56:15,549][__main__][INFO] - Epoch 5 test Accuracy: 0.395085  Class avg mIOU: 0.126713   Inctance avg mIOU: 0.175904
+[2023-04-20 15:56:15,549][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:15,549][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:15,549][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:25,607][__main__][INFO] - eval mIoU of Airplane       0.215062
+[2023-04-20 15:56:25,607][__main__][INFO] - eval mIoU of Bag            0.050398
+[2023-04-20 15:56:25,607][__main__][INFO] - eval mIoU of Cap            0.133967
+[2023-04-20 15:56:25,607][__main__][INFO] - eval mIoU of Car            0.105158
+[2023-04-20 15:56:25,608][__main__][INFO] - Epoch 6 test Accuracy: 0.394662  Class avg mIOU: 0.126146   Inctance avg mIOU: 0.175822
+[2023-04-20 15:56:25,608][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:25,608][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:25,608][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:35,573][__main__][INFO] - eval mIoU of Airplane       0.215124
+[2023-04-20 15:56:35,573][__main__][INFO] - eval mIoU of Bag            0.051583
+[2023-04-20 15:56:35,573][__main__][INFO] - eval mIoU of Cap            0.134144
+[2023-04-20 15:56:35,573][__main__][INFO] - eval mIoU of Car            0.107111
+[2023-04-20 15:56:35,573][__main__][INFO] - Epoch 7 test Accuracy: 0.395359  Class avg mIOU: 0.126991   Inctance avg mIOU: 0.176486
+[2023-04-20 15:56:35,573][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:35,573][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:35,573][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:45,617][__main__][INFO] - eval mIoU of Airplane       0.211073
+[2023-04-20 15:56:45,617][__main__][INFO] - eval mIoU of Bag            0.050328
+[2023-04-20 15:56:45,617][__main__][INFO] - eval mIoU of Cap            0.132679
+[2023-04-20 15:56:45,617][__main__][INFO] - eval mIoU of Car            0.106767
+[2023-04-20 15:56:45,617][__main__][INFO] - Epoch 8 test Accuracy: 0.395530  Class avg mIOU: 0.125212   Inctance avg mIOU: 0.173682
+[2023-04-20 15:56:45,617][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:45,617][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:45,617][__main__][INFO] - Best inctance avg mIOU is: 0.17699
+[2023-04-20 15:56:55,714][__main__][INFO] - eval mIoU of Airplane       0.216000
+[2023-04-20 15:56:55,714][__main__][INFO] - eval mIoU of Bag            0.052734
+[2023-04-20 15:56:55,714][__main__][INFO] - eval mIoU of Cap            0.131658
+[2023-04-20 15:56:55,714][__main__][INFO] - eval mIoU of Car            0.108521
+[2023-04-20 15:56:55,715][__main__][INFO] - Epoch 9 test Accuracy: 0.395230  Class avg mIOU: 0.127228   Inctance avg mIOU: 0.177460
+[2023-04-20 15:56:55,715][__main__][INFO] - Best accuracy is: 0.39596
+[2023-04-20 15:56:55,715][__main__][INFO] - Best class avg mIOU is: 0.12793
+[2023-04-20 15:56:55,715][__main__][INFO] - Best inctance avg mIOU is: 0.17746
+[2023-04-20 16:37:09,069][__main__][INFO] - Use pretrain model
+[2023-04-20 16:37:19,622][__main__][INFO] - eval mIoU of Airplane       0.817523
+[2023-04-20 16:37:19,622][__main__][INFO] - eval mIoU of Bag            0.750139
+[2023-04-20 16:37:19,622][__main__][INFO] - eval mIoU of Cap            0.817545
+[2023-04-20 16:37:19,622][__main__][INFO] - eval mIoU of Car            0.761333
+[2023-04-20 16:37:19,622][__main__][INFO] - Epoch 50 test Accuracy: 0.911917  Class avg mIOU: 0.786635   Inctance avg mIOU: 0.798780
+[2023-04-20 16:37:19,622][__main__][INFO] - Best accuracy is: 0.91192
+[2023-04-20 16:37:19,622][__main__][INFO] - Best class avg mIOU is: 0.78663
+[2023-04-20 16:37:19,622][__main__][INFO] - Best inctance avg mIOU is: 0.79878
+[2023-04-20 16:42:19,524][__main__][INFO] - Use pretrain model
+[2023-04-20 16:42:30,084][__main__][INFO] - eval mIoU of Airplane       0.820119
+[2023-04-20 16:42:30,084][__main__][INFO] - eval mIoU of Bag            0.738587
+[2023-04-20 16:42:30,084][__main__][INFO] - eval mIoU of Cap            0.843451
+[2023-04-20 16:42:30,084][__main__][INFO] - eval mIoU of Car            0.762551
+[2023-04-20 16:42:30,084][__main__][INFO] - Epoch 50 test Accuracy: 0.912572  Class avg mIOU: 0.791177   Inctance avg mIOU: 0.801072
+[2023-04-20 16:42:30,084][__main__][INFO] - Best accuracy is: 0.91257
+[2023-04-20 16:42:30,084][__main__][INFO] - Best class avg mIOU is: 0.79118
+[2023-04-20 16:42:30,084][__main__][INFO] - Best inctance avg mIOU is: 0.80107
