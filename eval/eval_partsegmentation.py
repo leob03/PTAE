@@ -6,7 +6,7 @@ import shutil
 import numpy as np
 
 from tqdm import tqdm
-from dataset import PartNormalDataset
+from utils.dataset import PartNormalDataset
 import hydra
 import omegaconf
 

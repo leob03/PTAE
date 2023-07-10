@@ -1,4 +1,4 @@
-from dataset import ModelNetDataLoader
+from utils.dataset import ModelNetDataLoader
 import os
 import numpy as np
 import torch

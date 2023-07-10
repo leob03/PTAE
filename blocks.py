@@ -4,7 +4,7 @@ from torch import nn
 import torch.nn.functional as F
 import numpy as np
 
-from pointnet_utils import PointNetSetAbstraction, PointNetFeaturePropagation, index_points, square_distance
+from utils.pointnet_utils import PointNetSetAbstraction, PointNetFeaturePropagation, index_points, square_distance
 
 class TransformerBlock(nn.Module):
     def __init__(self, d_points, d_model, k) -> None:

@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 import torch
 import torchvision
 from torchvision import transforms, utils
-from pointnet_utils import farthest_point_sample, pc_normalize
+from utils.pointnet_utils import farthest_point_sample, pc_normalize
 import json
 from path import Path
 

@@ -1,10 +1,10 @@
-from dataset import ModelNetDataLoader
+from utils.dataset import ModelNetDataLoader
 import numpy as np
 import os
 import torch
 import logging
 from tqdm import tqdm
-import provider
+import utils.provider as provider
 import importlib
 import shutil
 import hydra

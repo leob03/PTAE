@@ -2,7 +2,7 @@ import torch
 from einops import repeat
 from torch import nn, einsum
 
-from pointnet_utils import PointNetSetAbstraction, PointNetFeaturePropagation
+from utils.pointnet_utils import PointNetSetAbstraction, PointNetFeaturePropagation
 
 class PointTransformerLayer(nn.Module):
     def __init__(self, dim: int, emb_hidden: int, attn_expansion: int, 

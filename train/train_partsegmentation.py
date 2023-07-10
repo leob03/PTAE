@@ -4,11 +4,11 @@ from torchvision import transforms
 import logging
 import importlib
 import shutil
-import provider
+import utils.provider as provider
 import numpy as np
 
 from tqdm import tqdm
-from dataset import PartNormalDataset
+from utils.dataset import PartNormalDataset
 import hydra
 import omegaconf
 from torch.utils.tensorboard import SummaryWriter
