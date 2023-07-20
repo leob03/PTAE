@@ -33,8 +33,6 @@ In this project we studied how Transformer Blocks that are set operators are par
 
 [***Getting started***](https://github.com/leob03/PTAE#getting-started)
 
-[***Deeper dive into the code***](https://github.com/leob03/PTAE#deeper-dive-into-the-code)
-
 # Objective
 
 **To encode the information of the surfaces from a point cloud representation of a CAD file into a more meaningful latent space useful to determine grasping point candidates based on physical parameters.**
@@ -70,12 +68,14 @@ I only tested this code with Ubuntu 20.04, but I tried to make it as generic as 
 2. To run a predefined simple demo of the code and test the main results run the command `python demo.py`
 
 Classification:
-1. **Get the data.** 
+
+1. **Get the data.** Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `modelnet40_normal_resampled`.
 2. **To train the model for Classification:** Run the training `$ python train/train_classification.py`. You'll see that the learning code writes checkpoints into `log/cls/Leo/train_classification.log` and periodically print its status. 
 3. **Evaluate the models checkpoints.** To evaluate a checkpoint from `models/`, run the scripts `$ python eval_classification.py`. You'll see that the learning code writes checkpoints into `log/cls/Leo/eval_classification.log` and periodically print its status. 
 
 Part Segmentation:
-1. **Get the data.**
+
+1. **Get the data.**Download alignment **ShapeNet** [here](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip) and save in `data/shapenetcore_partanno_segmentation_benchmark_v0_normal`.
 2. **To train the model for Part Segmentation:** Run the training `$ python train/train_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/train_classification.log` and periodically print its status. 
 3. **Evaluate the models checkpoints.** To evaluate a checkpoint from `models/`, run the scripts `$ python eval_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/eval_partsegmentation.log` and periodically print its status. 
 
