@@ -7,6 +7,14 @@
 This code is the implementation of a project that I have worked on for the [Barton Research Group](https://brg.engin.umich.edu/research/robotic-smart-manufacturing).
 In this project we studied how transformer blocks that are set operators are particularly well suited for point clouds and thus make auto-encoders very efficient on point clouds, conserving their permutation invariance and study the application of such algorithms on an application for Robot Grasping.
 
+<p align="center">
+<img src=./img/pres.png width=40% height=40%>
+</p>
+
+<p align="center">
+<img src=./img/overview.png width=40% height=40%>
+</p>
+
 # Contents
 
 [***Objective***](https://github.com/leob03/PTAE#objective)
@@ -23,9 +31,7 @@ In this project we studied how transformer blocks that are set operators are par
 
 # Objective
 
-**To build a model that can generate a descriptive caption for an image we provide it.**
-
-
+**To encode the information of the surfaces from a point cloud representation of a CAD file into a more meaningful latent space useful to determine grasping point candidates based on physical parameters.**
 
 
 # Concepts
