@@ -5,16 +5,20 @@
 # Point Transformer based Auto-Encoder for Robot Grasping and Quality Inference
 
 This code is the implementation of a project that I have worked on for the [Barton Research Group](https://brg.engin.umich.edu/research/robotic-smart-manufacturing).
-In this project we studied how transformer blocks that are set operators are particularly well suited for point clouds and thus make auto-encoders very efficient on point clouds, conserving their permutation invariance and study the application of such algorithms on an application for Robot Grasping.
+In this project we studied how Transformer Blocks that are set operators are particularly well suited for Point-Clouds and thus can make Auto-Encoders very efficient on point clouds, conserving their permutation invariance. We also worked on a concrete application of our method for Robot Grasping.
 
 &nbsp;
 
 <p align="center">
-<img src=./img/pres.png width="700" height="300">
+  <img src=./img/pres.png width="700" height="300">
+  <br>
+  Overview of the Auto-Encoder
 </p>
 
 <p align="center">
-<img src=./img/overview.png width="700" height="250">
+  <img src=./img/overview.png width="700" height="250">
+  <br>
+  Overview of where it intervenes in the whole process
 </p>
 
 # Contents
@@ -38,6 +42,8 @@ In this project we studied how transformer blocks that are set operators are par
 
 # Concepts
 
+Most of the concepts are described quite in depth in the paper (reference the paper) but here is a quick summary of the main concepts exploited in this project:
+
 * **Encoder-Decoder architecture**. Typically, a model that generates sequences will use an Encoder to encode the input into a fixed form and a Decoder to decode it, word by word, into a sequence.
 
 * **Attention**. The use of Attention networks is widespread in deep learning, and with good reason. This is a way for a model to choose only those parts of the encoding that it thinks is relevant to the task at hand. The same mechanism you see employed here can be used in any model where the Encoder's output has multiple points in space or time. In image captioning, you consider some pixels more important than others. In sequence to sequence tasks like machine translation, you consider some words more important than others.
@@ -53,17 +59,25 @@ The pipeline for the project looks as follows:
 - In the **prediction stage**, a witheld set of images is passed to RNN and the RNN generates the sentence one word at a time. The code also includes utilities for visualizing the results.
 
 # Dependencies
-**Python 3.10**, modern version of **PyTorch**, **numpy** and **scipy** module. Most of these are okay to install with **pip**. To install all dependencies at once, run the command `pip install -r requirements.txt`
+**Python 3.10**, modern version of **PyTorch**, **numpy** and **scipy** module. Most of these are okay to install with **pip**. To install the rest of the dependencies all at once, run the command `./install.sh`
 
 I only tested this code with Ubuntu 20.04, but I tried to make it as generic as possible (e.g. use of **os** module for file system interactions etc. So it might work on Windows and Mac relatively easily.)
 
 
 # Getting started
 
-1. **Get the code.** `$ git clone` the repo and install the Python dependencies
-2. **Train the models.** Run the training `$ python train_rnn.py` or `$ python train_lstm.py` or `$ python train_lstm_attention.py`, depending on the model that you want to try (see many additional argument settings inside the file) and wait. You'll see that the learning code writes checkpoints into `cv/` and periodically print its status. 
-3. **Evaluate the models checkpoints and Visualize the predictions.** To evaluate a checkpoint from `checkpoints/`, run the scripts `$ python test_rnn.py` or `$ python test_lstm.py` or `$ python test_lstm_attention.py` and pass it the path to a checkpoint ( by adding --checkpoint /path/to/the/checkpoint after your python command).
+1. **Get the code.** `$ git clone` the repo and install the Python dependencies.
+2. To run a predefined simple demo of the code and test the main results run the command `python demo.py`
 
-# Deeper dive into the code
+Classification:
+1. **Get the data.** 
+2. **To train the model for Classification:** Run the training `$ python train/train_classification.py`. You'll see that the learning code writes checkpoints into `log/cls/Leo/train_classification.log` and periodically print its status. 
+3. **Evaluate the models checkpoints.** To evaluate a checkpoint from `models/`, run the scripts `$ python eval_classification.py`. You'll see that the learning code writes checkpoints into `log/cls/Leo/eval_classification.log` and periodically print its status. 
+
+Part Segmentation:
+1. **Get the data.**
+2. **To train the model for Part Segmentation:** Run the training `$ python train/train_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/train_classification.log` and periodically print its status. 
+3. **Evaluate the models checkpoints.** To evaluate a checkpoint from `models/`, run the scripts `$ python eval_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/eval_partsegmentation.log` and periodically print its status. 
+
 
 
