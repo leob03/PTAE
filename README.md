@@ -33,6 +33,8 @@ In this project we studied how Transformer Blocks that are set operators are par
 
 [***Getting started***](https://github.com/leob03/PTAE#getting-started)
 
+[***Notes***](https://github.com/leob03/PTAE#notes)
+
 # Objective
 
 **To encode the information of the surfaces from a point cloud representation of a CAD file into a more meaningful latent space useful to determine grasping point candidates based on physical parameters.**
@@ -105,5 +107,6 @@ Then, we evaluated it on the ShapeNetPart dataset which is annotated for 3D obje
 2. **To train the model for Part Segmentation:** Run the training `$ python train/train_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/train_classification.log` and periodically print its status. 
 3. **Evaluate the models checkpoints.** To evaluate a checkpoint from `models/`, run the scripts `$ python eval_partsegmentation.py`. You'll see that the learning code writes checkpoints into `log/partseg/Leo/eval_partsegmentation.log` and periodically print its status. 
 
-
+# Notes
+Some code and training settings are borrowed from both https://github.com/yanx27/Pointnet_Pointnet2_pytorch and from the paper [PCT: Point Cloud Transformer (Meng-Hao Guo et al.)](https://arxiv.org/abs/2012.09688) which original implementation is accessible here: https://github.com/MenghaoGuo/PCT.
 
