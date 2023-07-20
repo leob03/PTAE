@@ -7,12 +7,14 @@
 This code is the implementation of a project that I have worked on for the [Barton Research Group](https://brg.engin.umich.edu/research/robotic-smart-manufacturing).
 In this project we studied how transformer blocks that are set operators are particularly well suited for point clouds and thus make auto-encoders very efficient on point clouds, conserving their permutation invariance and study the application of such algorithms on an application for Robot Grasping.
 
+&nbsp;
+
 <p align="center">
-<img src=./img/pres.png width=40% height=40%>
+<img src=./img/pres.png width="700" height="300">
 </p>
 
 <p align="center">
-<img src=./img/overview.png width=40% height=40%>
+<img src=./img/overview.png width="700" height="250">
 </p>
 
 # Contents
