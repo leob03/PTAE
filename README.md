@@ -5,7 +5,7 @@
 # Point Transformer based Auto-Encoder for Robot Grasping and Quality Inference
 
 This code is the implementation of a project that I have worked on for the [Barton Research Group](https://brg.engin.umich.edu/research/robotic-smart-manufacturing).
-In this project we studied how Transformer Blocks that are set operators are particularly well suited for Point-Clouds and thus can make Auto-Encoders very efficient on point clouds, conserving their permutation invariance. We also worked on a concrete application of our method for Robot Grasping.
+In this project we studied how Transformer Blocks that are set operators are particularly well suited for Point-Clouds and thus can make Auto-Encoders very efficient on point clouds, conserving their permutation invariance. We also worked on a concrete application of our method for Robot Grasping. Find the written repport of this report [here](https://leobringer.files.wordpress.com/2023/09/ptae.pdf).
 
 &nbsp;
 
