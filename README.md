@@ -40,7 +40,7 @@ In this project we studied how Transformer Blocks that are set operators are par
 
 # Concepts
 
-Most of the concepts are described quite in depth in the paper (reference the paper) but here is a quick summary of the main concepts exploited in this project:
+Most of the concepts are described quite in depth in the paper but here is a quick summary of the main concepts exploited in this project:
 
 * **Point-Cloud processing**. Point cloud processing involves handling and analyzing data that represents a set of points in three-dimensional space. Each point in the cloud typically contains information about its spatial coordinates and may include additional attributes like color or intensity. Point cloud processing techniques are used in various applications such as 3D reconstruction, object recognition, autonomous driving, and environmental modeling. The goal is to extract meaningful information, perform geometric analysis, and apply machine learning algorithms to understand and interact with the 3D world captured by the point cloud data.
 
