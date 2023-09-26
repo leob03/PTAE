@@ -52,6 +52,7 @@ class PointTransformerCls(nn.Module):
             nn.ReLU(),
             nn.Linear(64, n_c)
         )
+        self.npoints = cfg.num_point + d_points
         self.nblocks = nblocks
     
     def forward(self, x):
