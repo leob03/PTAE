@@ -35,6 +35,7 @@ class Encoder(nn.Module):
             xyz, points = self.transition_downs[i](xyz, points)
             points = self.transformers[i](xyz, points)[0]
             xyz_and_feats.append((xyz, points))
+            print(xyz)
         return points, xyz_and_feats
 
 
